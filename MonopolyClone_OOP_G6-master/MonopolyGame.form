@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MonopolyGame">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="21" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1324" height="924"/>
+    </constraints>
+    <properties>
+      <background color="-3347228"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="9d00e" class="javax.swing.JLabel" binding="backgroundImageLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="21" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="bgimage/monopoly_original.jpg"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d572a" class="javax.swing.JTextField" binding="displayText">
+        <constraints>
+          <grid row="1" column="3" row-span="9" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="350" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <editable value="false"/>
+          <font size="20"/>
+          <foreground color="-591620"/>
+          <horizontalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="52dac" class="javax.swing.JTextField" binding="displayProp">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="350" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <editable value="false"/>
+          <font size="12"/>
+          <foreground color="-591620"/>
+          <horizontalAlignment value="0"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="51307" class="javax.swing.JButton" binding="btnBuy">
+        <constraints>
+          <grid row="12" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font/>
+          <text value="BUY / PAY RENT"/>
+        </properties>
+      </component>
+      <component id="9e95" class="javax.swing.JButton" binding="btnRoll">
+        <constraints>
+          <grid row="16" column="3" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-52950"/>
+          <font size="20"/>
+          <foreground color="-394241"/>
+          <text value="ROLL DICE"/>
+        </properties>
+      </component>
+      <hspacer id="8f49">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="a5308" class="javax.swing.JButton" binding="btnSellProperty">
+        <constraints>
+          <grid row="13" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="TRANSACTION HISTORY"/>
+        </properties>
+      </component>
+      <component id="35cda" class="javax.swing.JTextField" binding="displayMove">
+        <constraints>
+          <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="350" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <editable value="false"/>
+          <font size="20"/>
+          <foreground color="-1180673"/>
+          <horizontalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="40192" class="javax.swing.JButton" binding="btnP1">
+        <constraints>
+          <grid row="14" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="P1 Properties"/>
+        </properties>
+      </component>
+      <component id="7957e" class="javax.swing.JButton" binding="btnP2">
+        <constraints>
+          <grid row="15" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="P2 Properties"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
